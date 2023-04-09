@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "4M6LlB16h2E0EjtSIfm1nxgQUh1gvuRnFAV3iOKAQ8dE+NvA/7Io1eH3a0jxkgmeF15xsWoFqtIsTec5pHDzeQ==",
+  "success": false,
+  "projectFilePath": "D:\\Nahuel\\TP FINAL\\tpfinal\\tpfinal\\tpfinal.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete TextFieldParserStandard. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "TextFieldParserStandard",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
