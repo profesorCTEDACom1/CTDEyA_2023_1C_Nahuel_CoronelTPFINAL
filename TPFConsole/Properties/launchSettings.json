@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TPFConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Temp\\dataset.csv"
+    }
+  }
+}
