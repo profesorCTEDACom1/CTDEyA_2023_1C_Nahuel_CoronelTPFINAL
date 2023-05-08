@@ -1,0 +1,15 @@
+D:\Nahuel\tpfinal\TPFConsole\bin\Debug\net6.0\TPFConsole.exe
+D:\Nahuel\tpfinal\TPFConsole\bin\Debug\net6.0\TPFConsole.deps.json
+D:\Nahuel\tpfinal\TPFConsole\bin\Debug\net6.0\TPFConsole.runtimeconfig.json
+D:\Nahuel\tpfinal\TPFConsole\bin\Debug\net6.0\TPFConsole.dll
+D:\Nahuel\tpfinal\TPFConsole\bin\Debug\net6.0\TPFConsole.pdb
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.csproj.AssemblyReference.cache
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.AssemblyInfoInputs.cache
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.AssemblyInfo.cs
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.csproj.CoreCompileInputs.cache
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.dll
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\refint\TPFConsole.dll
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.pdb
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\TPFConsole.genruntimeconfig.cache
+D:\Nahuel\tpfinal\TPFConsole\obj\Debug\net6.0\ref\TPFConsole.dll
