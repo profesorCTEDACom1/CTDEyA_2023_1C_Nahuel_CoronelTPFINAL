@@ -47,7 +47,7 @@ namespace MyApp
                         if (hijo.esHoja()) //si ese hijo es hoja
                         {
                             oracion2 = oracion2 + " " + hijo.getDatoRaiz().texto; //concatena todos los texto de las hojas
-                        }
+                        } //*****Observacion: falta un else porque encola indistintamente si es hoja o no, con lo cual el dato aparece duplicado en oracion2
                         cola.encolar(hijo);//encola el hijo para seguir buscando mas hojas
                     }
                 }
@@ -157,21 +157,21 @@ namespace MyApp
             int distancia = CalcularDistancia(arbol.getDatoRaiz().texto, dato.texto);
             Cola<ArbolGeneral<DatoDistancia>> cola = new Cola<ArbolGeneral<DatoDistancia>>(); //creacion de la cola para recorrer el arbol general por nivles
             ArbolGeneral<DatoDistancia> arbolaux; //arbol auxiliar que nos va a servir de puntero
-            cola.encolar(arbol); //encolo el arbol que pase como parametro
-            while (!cola.esVacia())
+            cola.encolar(arbol); //encolo el arbol que pase como parametro //*****Observacion:quitar
+            while (!cola.esVacia()) //*****Observacion:quitar
             {
-                arbolaux = cola.desencolar(); //desencolo el arbol auxiliar
-                foreach (var hijo in arbolaux.getHijos())
+                arbolaux = cola.desencolar(); //desencolo el arbol auxiliar  //*****Observacion:quitar
+                foreach (var hijo in arbolaux.getHijos()) //*****Observacion:reemplazar arbolaux por arbol
                 { //tomo la lista de hijos
-                    cola.encolar(hijo); //y los encolo
-                }
-                if (distancia == arbolaux.getDatoRaiz().distancia)
+                    cola.encolar(hijo); //y los encolo  //*****Observacion:quitar
+                }  //*****Observacion:quitar
+                if (distancia == arbolaux.getDatoRaiz().distancia)  //*****Observacion:reemplazar arbolaux por hijo y tener un centinela si en alguna iteracion se hizo el llamado recursivo
                 {
                     AgregarDato(arbolaux, dato);
                 }
             }
-            if (distancia != arbol.getDatoRaiz().distancia)
-            {
+            if (distancia != arbol.getDatoRaiz().distancia) //*****Observacion: reformular la pregunta por si el centinela anterior quedo en true o false
+            {    //*****Observacion: Falta asignale la distancia al dato ()
                 ArbolGeneral<DatoDistancia> nuevonodo = new ArbolGeneral<DatoDistancia>(dato); //se crea un arbol genera con el DatoDistancia
                 arbol.agregarHijo(nuevonodo); //se agrega ese arbol al arbol que se paso como parametro
             }
